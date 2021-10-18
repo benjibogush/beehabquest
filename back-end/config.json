@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb://localhost/beehab_api",
+    "secret": "beehabquest2021"
+}
