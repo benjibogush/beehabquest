@@ -1,4 +1,5 @@
 ﻿{
-    "connectionString": "mongodb://localhost/beehab_api",
-    "secret": "beehabquest2021"
+    "connectionString": "mongodb+srv://beehab:learning@cluster0.kdnbr.mongodb.net/newItems?retryWrites=true&w=majority",
+    "secret": "learning"
 }
+

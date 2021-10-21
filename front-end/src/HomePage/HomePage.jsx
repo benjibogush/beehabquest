@@ -19,6 +19,20 @@ class HomePage extends React.Component {
             <div className="col-md-6 col-md-offset-3">
                 <h1>Hi {user.firstName}!</h1>
                 <p>You're logged in with React!!</p>
+
+                <h1> Welcome to beehabquest</h1>
+
+                <div className="text-center">
+                    <p>
+                        <a href="https://sites.google.com/view/beehablearning" target="_top">BeehabQuest -->
+                            beehablearning</a>
+                    </p>
+                    <p>
+                        <a href="https://k12.instructure.com/courses/354325" target="_top">BeehabQuest --> Canvas</a>
+                    </p>
+                </div>
+
+
                 <h3>All registered users:</h3>
                 {users.loading && <em>Loading users...</em>}
                 {users.error && <span className="text-danger">ERROR: {users.error}</span>}
